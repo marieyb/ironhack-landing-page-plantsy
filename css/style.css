@@ -1,3 +1,28 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 16px;
+}
+
+header{
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.logo{
+    width: 175px;
+    height: 37px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
 img{
     width: 100%;
 }
