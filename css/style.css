@@ -13,6 +13,7 @@ img{
 p{
     margin-block-start: 0;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 header{
@@ -20,10 +21,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    -webkit-box-shadow: 0px 5px 5px #4d4d4d80;
+    position: relative;
 }
 
 .logo-header{
-    width: 100px;
+    width: 150px;
 }
 
 #nav-bar>nav{
@@ -47,9 +50,10 @@ header{
     height: 50vh;
 }
 
-a.menu:link{
+a.menu:link, a.menu:visited{
     text-decoration: none;
     color: black;
+    font-size: 20px;
     font-weight: 700;
     padding: 20px;
     text-align: center;
@@ -65,13 +69,15 @@ button{
 #login{
     background-color: white;
     color: #627A46;
-    margin: 5px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 #sign-up{
     background-color: #627A46;
     color: white;
-    margin: 5px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .container{
@@ -91,7 +97,7 @@ a.icon:link{
 /* start - hero section */
 #hero{
     background-image: url('../img/hero-img.png');
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     justify-content: center;
     flex-direction: column;
@@ -100,11 +106,12 @@ a.icon:link{
 
 #hero-btn{
     background-color: #627A46;
-    width: 300px;
+    width: 500px;
     margin: 100px;
-    padding: 32px;
+    padding: 20px;
     border-radius: 10px;
     color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 30px rgba(0, 0, 0, 0.25);
 }
 
 #plants-bundle-btn{
