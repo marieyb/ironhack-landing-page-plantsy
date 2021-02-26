@@ -3,26 +3,125 @@
 }
 
 body{
-    margin: 16px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin-block-start: 0;
+    margin-bottom: 20px;
 }
 
 header{
     background-color: white;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-header{
+    width: 100px;
+}
+
+#nav-bar>nav{
+    display: flex;
+    justify-content: center;
+}
+
+#houseplants{
+    height: 50vh;
+}
+
+#accessories{
+    height: 50vh;
+}
+
+#gift{
+    height: 50vh;
+}
+
+#businesses{
+    height: 50vh;
+}
+
+a.menu:link{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 2px solid #627A46;
+    padding: 10px;
     font-weight: 700;
 }
 
-.logo{
-    width: 175px;
-    height: 37px;
+#login{
+    background-color: white;
+    color: #627A46;
+    margin: 5px;
 }
 
-a:link{
-    text-decoration: none;
+#sign-up{
+    background-color: #627A46;
+    color: white;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+#buttons-icons{
+    display: flex;
+    align-items: center;
+}
+
+a.icon:link{
     color: black;
+    padding: 16px;
 }
 
-img{
-    width: 100%;
+/* start - hero section */
+#hero{
+    background-image: url('../img/hero-img.png');
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
 }
+
+#hero-btn{
+    background-color: #627A46;
+    width: 300px;
+    margin: 100px;
+    padding: 32px;
+    border-radius: 10px;
+    color: white;
+}
+
+#plants-bundle-btn{
+    background-color: white;
+    color: #627A46;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 767px){
+    header{
+        flex-direction: column;
+    }
+
+    #nav-bar>nav{
+        flex-direction: column;
+    }
+}
+
+
+

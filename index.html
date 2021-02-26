@@ -13,36 +13,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!-- start - header -->
-    <header>
-        <div class="logo">
-            <img src="img/plantsome-logo.png" alt="plantsome-logo">
-        </div>
-
+    <header class="container">
         <div>
+            <img src="img/plantsome-logo.png" alt="plantsome-logo" class="logo-header">
+        </div>
+        <div id="nav-bar">
             <nav>
-                <a href="houseplants">Houseplants</a>
-                <a href="accessories">Accessories</a>
-                <a href="gift">Gift</a>
-                <a href="businesses">Businesses</a>
+                <a href="#houseplants" class="menu">Houseplants</a>
+                <a href="#accessories" class="menu">Accessories</a>
+                <a href="#gift" class="menu">Gift</a>
+                <a href="#businesses" class="menu">Businesses</a>
             </nav>
         </div>
-
-        <div>
-            <button>Login</button>
-            <button>Sign Up</button>
-        </div>
-
-        <div>
-            <a href="#"><i class="fas fa-search"></i></a>
-            <a href="#"><i class="fas fa-shopping-basket"></i></a>
+        <div id="buttons-icons">
+            <button id="login">Login</button>
+            <button id="sign-up">Sign Up</button>
+            <a href="#" class="icon"><i class="fas fa-search fa-2x"></i></a>
+            <a href="#" class="icon"><i class="fas fa-shopping-basket fa-2x"></i></a>
         </div>
     </header>
     <!-- end - header -->
+
+    <!-- start - hero section -->
+    <section id="hero" class="container">
+        <div id="hero-btn">
+            <p>Want a house filled with plants? Our plant bundles are a great way to get started!</p>
+            <button id="plants-bundle-btn">VIEW OUR PLANTS BUNDLES</button>
+        </div>
+    </section>
+    <!-- end - hero section -->
 
 
 
