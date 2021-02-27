@@ -148,12 +148,16 @@ a.icon:link{
     flex-direction: column;
     justify-content: flex-end;
     background: #F5D4BD;
-    background-image:url('../img/AlocasiaPolly.png');
     background-position: center;
     position: relative;
     width: 325px;
     height: 400px;
     border-radius: 30px;
+}
+
+#alocasia-polly-img{
+    border: 1 px dashed black;
+    position: center;
 }
 
 #plant-id{
@@ -167,6 +171,7 @@ a.icon:link{
 
 #plant-id>p{
     margin-block: 0;
+    font-size: 20px;
 }
 
 .plant-name-price{
